@@ -213,12 +213,16 @@ li{
     padding-left: 20px;
     border-left: 2px solid red;
     margin-top: 70px;
-    height: 650px;
+    height: 690px;
     margin-bottom: 19px;
 }
 .sidebar-content h3{
    padding-top: 20px;
    padding-bottom: 10px;
+}
+.sidebar-content p{
+    font-size: 14px;
+    line-height: 18px;
 }
 .sidebar-image{
     text-align: left;
@@ -227,15 +231,37 @@ li{
 .sidebar-image img{
 
 }
-.box-9{
-    align-self: flex-end;
+.box3-inner{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.content{
+    margin-top: 20px;
+    
+}
+.item-1{
+    display: flex;
+    
+}
+.content-1{
+    width: 60px !important;
+    margin-left: -5px;
+}
+.content-2{
+    width: 60px !important;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.content-3{
+    width: 60px !important;
+    margin-top: 60px;
+    margin-left: 25px;
 }
 
 /* footer-menu */
 .footer-menu{
     background-color: #141719;
-    margin-bottom: 20px;
-    
     
 }
 .footer-menu ul{
